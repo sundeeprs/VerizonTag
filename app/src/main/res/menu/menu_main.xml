@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="in.sunsoft.com.mytag.views.TagsListActivity">
+
+    <item
+        android:id="@+id/action_accending"
+        android:orderInCategory="100"
+        android:title="@string/action_accending"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_decending"
+        android:orderInCategory="100"
+        android:title="@string/action_decending"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_copy"
+        android:orderInCategory="100"
+        android:title="@string/action_copy_list"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_delete_all"
+        android:orderInCategory="100"
+        android:title="@string/action_delete_all"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_max_occurence"
+        android:orderInCategory="100"
+        android:title="@string/action_max_occurence"
+        app:showAsAction="never" />
+
+
+</menu>
